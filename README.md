@@ -36,6 +36,5 @@ At line <link rel="stylesheet" crossorigin href="css/style.css">
 Correct to <link rel="stylesheet" href="css/style.css">  
 ```
 
--- All images are for demonstration purposes only. --
 
 

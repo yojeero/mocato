@@ -1,12 +1,12 @@
-<img src="preview/view.jpg">
+<img src="preview/mocato.png">
 
-### [Mocato](https://legoo.vercel.app/) - landing HTML template ###
+### [Mocato](https://mocato.vercel.app/) - Tailwind template ###
 
 
 ```
-- Newest CSS Grid Layout
+- Tailwind CSS
 - HTML5, CSS3, SVG icons
-- Google Fonts, Whatsapp and Map Links
+- Google Fonts, Local Fonts
 - Radio player via Vanilla JS
 - Fully responsive layout
 ```

@@ -14,5 +14,5 @@
 
 -- Need remove > "crossorigin" in "index.html" at "head" section after build in Vite
 
--- In stroke - <link rel="stylesheet" crossorigin href="css/style.css">  
--- Need - <link rel="stylesheet" href="css/style.css">
+-- In stroke - "<link rel="stylesheet" crossorigin href="css/style.css"> " 
+-- Need - "<link rel="stylesheet" href="css/style.css">""

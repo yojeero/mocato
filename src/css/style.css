@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, a
 
 *{ scroll-behavior: smooth }
 
-/* loader animation */
-@keyframes ring { from { stroke-dasharray: 0 257 0 0 1 0 0 258; } 25% { stroke-dasharray: 0 0 0 0 257 0 258 0; } 50%, to { stroke-dasharray: 0 0 0 0 0 515 0 0; } }
+/* loader */ 
+@keyframes prog { to  {   width: 100%;} }
 
 /* mouse indicator */
 @keyframes scroll { 0% { transform: translateY(0); } 30% { transform: translateY(2.625rem); } }

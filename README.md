@@ -3,39 +3,23 @@
 ### [Mocato](https://mocato.vercel.app/) - Tailwind v4 Template
 
 - Tailwind CSS v4
-- Can use Tailwind via CDN
+- Simple use Tailwind via CLI
 - HTML5, CSS3
 - Inline SVG icons 
 - Local Google Fonts
 - Radio player via Vanilla JS
 - Fully responsive layout
-- Vite build config
-- Ready production Tailwind HTML site in the "public" folder
 
 ```
 Tailwind CSS v4 
 
 Don't need tailwind.config anymore.
 Just use > @import "tailwindcss"; < in your .css
-
----------------------
-
-Use Tailwind via CDN without Build Tools like Vite, Bun, Nx and so on ...
-Look at https://risingstars.js.org/2023/en#section-build
-
-Insert <script src="https://unpkg.com/@tailwindcss/browser@4"></script> to the <head>    
-of your HTML file, and start using Tailwind to style your content.  
 ```
 
-After building in Vite
+Use Tailwind via CLI
 
-Need to remove >crossorigin< in "index.html" at the "head" section. 
-
-```
-At line <link rel="stylesheet" crossorigin href="css/style.css">  
-
-Correct to <link rel="stylesheet" href="css/style.css">  
-```
-
-
-
+- in project folder run in terminal > npm install tailwindcss @tailwindcss/cli  
+- insert > @import "tailwindcss" < in input.css  
+- run in terminal > npx @tailwindcss/cli -i ./css/input.css -o ./css/style.css --watch
+- That`s all. All your changes will be in style.css.

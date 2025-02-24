@@ -1,4 +1,4 @@
-<img width="830px" src="preview/git.png">
+<img width="830" src="preview/git.png">
 
 ### [Mocato](https://mocato.vercel.app/) - Tailwind v4 Template
 

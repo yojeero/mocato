@@ -20,6 +20,6 @@ Just use > @import "tailwindcss"; < in your .css
 Use Tailwind via CLI
 
 - in project folder run in terminal > npm install tailwindcss @tailwindcss/cli  
-- insert > @import "tailwindcss" < in input.css  
+- insert > @import "tailwindcss"; < in input.css  
 - run in terminal > npx @tailwindcss/cli -i ./css/input.css -o ./css/style.css --watch
 - That`s all. All your changes will be in style.css.

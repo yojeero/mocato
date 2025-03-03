@@ -1,6 +1,6 @@
 <img width="830" src="preview/git.png">
 
-### [Mocato](https://mocato.vercel.app/) - Tailwind v4 Template
+### [Mocato](https://mocato.vercel.app/) - Tailwind Template
 
 - Tailwind CSS v4
 - Simple use Tailwind via CLI

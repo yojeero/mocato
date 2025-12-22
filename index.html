@@ -12,10 +12,10 @@
   <meta name="description" content="Tailwind CSS Template" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="icon" type="image/svg+xml" href="images/fav.svg">
+  <link rel="icon" type="image/svg+xml" href="./images/fav.svg">
 
   <!-- STYLE CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
@@ -39,12 +39,12 @@
 
       <div class="grid place-self-center">
         <a href="https://github.com/yojeero" target="_blank">
-          <img class="object-cover w-sm h-sm" src="images/ava.webp" alt="">
+          <img class="object-cover w-sm h-sm" src="./images/ava.webp" alt="">
         </a>
       </div>
 
       <h1 class="grid leading-normal text-center place-self-center lg:text-8xl text-7xl">I'm Mocato, <p
-          class="text-cyan-500"> a Graphic Designer</p>
+          class="text-cyan-500 leading-none"> a Graphic Designer</p>
       </h1>
 
       <a href="#foo" class="scroll">
@@ -114,7 +114,7 @@
 
       <!-- SHOT -->
       <div class="grid w-full overflow-hidden h-fit bg-gray-50">
-        <img src="images/shot.webp" alt="" id="shot">
+        <img src="./images/shot.webp" alt="" id="shot">
       </div>
 
       <!-- PLAYER -->
@@ -198,7 +198,7 @@
 
       <div class="grid mt-20 place-self-center">
         <a href="https://github.com/" target="_blank">
-          <img class="object-cover h-auto m-auto w-xs" src="images/foo.webp" alt="">
+          <img class="object-cover h-auto m-auto w-xs" src="./images/foo.webp" alt="">
         </a>
       </div>
 
@@ -426,7 +426,7 @@
       const loader = document.querySelector(".loader");
       if (!loader) return;
       loader.classList.add("opacity-0");
-      setTimeout(() => loader.remove(), 300);
+      setTimeout(() => loader.remove(), 200);
     });
   </script>
 

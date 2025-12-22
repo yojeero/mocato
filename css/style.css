@@ -978,19 +978,28 @@
         background-color: var(--color-white)
     }
 
-    .bg-gradient-to-r {
-        --tw-gradient-position: to right in oklab, ;
+    .bg-linear-to-r {
+        --tw-gradient-position: to right
+    }
+
+    @supports (background-image:linear-gradient(in lab, red, red)) {
+        .bg-linear-to-r {
+            --tw-gradient-position: to right in oklab
+        }
+    }
+
+    .bg-linear-to-r {
         background-image: linear-gradient(var(--tw-gradient-stops))
     }
 
     .from-lime-600 {
         --tw-gradient-from: var(--color-lime-600);
-        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position, )var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
     }
 
     .from-stone-400 {
         --tw-gradient-from: var(--color-stone-400);
-        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position, )var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
     }
 
     .from-50\% {
@@ -999,12 +1008,12 @@
 
     .to-amber-400 {
         --tw-gradient-to: var(--color-amber-400);
-        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position, )var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
     }
 
     .to-orange-600 {
         --tw-gradient-to: var(--color-orange-600);
-        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position, )var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
+        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from)var(--tw-gradient-from-position), var(--tw-gradient-to)var(--tw-gradient-to-position))
     }
 
     .to-50\% {
@@ -1504,8 +1513,20 @@
     scroll-behavior: smooth
 }
 
-/* loader */ 
-@keyframes prog { to  {   width: 100%;} }
+/* loader */
+@keyframes prog {
+    to {
+        width: 100%;
+    }
+}
 
 /* mouse */
-@keyframes scroll { 0% { transform: translateY(0) } 30% { transform: translateY(2.625rem) } }
+@keyframes scroll {
+    0% {
+        transform: translateY(0)
+    }
+
+    30% {
+        transform: translateY(2.625rem)
+    }
+}

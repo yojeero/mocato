@@ -2,9 +2,9 @@
 
 ### [Mocato](https://mocato.vercel.app/) - tailwind template
 
-- Tailwind CSS v4
-- HTML5 and CSS
-- SVG icons 
-- Google Fonts
-- Radio player
-- 100% Responsive
+-> Tailwind v4  
+-> 100% responsive  
+-> HTML5 and CSS  
+-> Google Fonts  
+-> SVG icons  
+-> Radio player

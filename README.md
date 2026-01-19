@@ -1,4 +1,4 @@
-<img src="preview/git.webp">
+<img src="preview/preview.jpg" width="830">   
 
 ### [Mocato](https://mocato.vercel.app/) is a modern, lightweight Tailwind template designed for radio stations, podcasts, and audio-focused websites.    
 

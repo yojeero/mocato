@@ -1,4 +1,4 @@
-<img src="preview/preview.jpg" width="830">   
+<img src="preview/view.jpg" width="830">   
 
 ### [Mocato](https://mocato.vercel.app/) is a modern Graphic Designer Portfolio.     
 
